@@ -9,9 +9,9 @@ export const Route = createFileRoute("/services")({
   component: ServicesPage,
   head: () => ({
     meta: [
-      { title: "Services — Vastu, Astrology, Numerology & Logo Design" },
-      { name: "description", content: "Vastu consultancy, Vastu compatible certification, interior design, astrology, numerology, scientific logo design and muhurta planning by Vastu Samruddhi." },
-      { property: "og:title", content: "Services — Vastu Samruddhi" },
+      { title: "Services — Vastu, Astrology, Numerology & Logo Design | VASTUSAMRUDDHI" },
+      { name: "description", content: "Vastu consultancy, Vastu compatible certification, interior design, astrology, numerology, scientific logo design and muhurta planning by VASTUSAMRUDDHI." },
+      { property: "og:title", content: "Services — VASTUSAMRUDDHI" },
       { property: "og:description", content: "Premium Vedic consultancy for homes, offices, industry and brands." },
       { property: "og:url", content: "/services" },
     ],

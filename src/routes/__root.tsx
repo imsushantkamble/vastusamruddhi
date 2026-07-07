@@ -17,7 +17,7 @@ function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
-        <p className="text-sm tracking-[0.3em] text-primary uppercase">Vastu Samruddhi</p>
+        <p className="text-sm tracking-[0.3em] text-primary uppercase">VASTUSAMRUDDHI</p>
         <h1 className="mt-4 font-display text-7xl text-gradient-green">404</h1>
         <h2 className="mt-2 text-xl font-medium">Page not found</h2>
         <p className="mt-2 text-sm text-muted-foreground">
@@ -74,19 +74,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vastu Samruddhi — Vedic Vastu Consultation Experts Since 2008" },
+      { title: "VASTUSAMRUDDHI — Vedic Vastu Consultation Experts Since 2008" },
       {
         name: "description",
         content:
-          "Vastu Samruddhi by Shri Ravindra & Smt. Riddhi Jadhav offers premium Vedic Vastu, Astrology, Numerology & Scientific Logo consultation across India and abroad. Non-demolition remedies, 4600+ happy clients.",
+          "VASTUSAMRUDDHI by Shri Ravindra & Smt. Riddhi Jadhav offers premium Vedic Vastu, Astrology, Numerology & Scientific Logo consultation across India and abroad. Non-demolition remedies, 46000+ happy clients.",
       },
-      { name: "author", content: "Vastu Samruddhi" },
-      { name: "keywords", content: "Vastu consultant, Vedic Vastu, Vastu Shastra, Astrology, Numerology, Scientific Logo Design, Navi Mumbai Vastu, Ravindra Jadhav, Riddhi Jadhav" },
+      { name: "author", content: "VASTUSAMRUDDHI" },
+      { name: "keywords", content: "Vastu consultant, Vedic Vastu, Vastu Shastra, Astrology, Numerology, Scientific Logo Design, Navi Mumbai Vastu, Ravindra Jadhav, Riddhi Jadhav, Vastusamruddhi" },
       { name: "theme-color", content: "#1B5E20" },
-      { property: "og:title", content: "Vastu Samruddhi — Vedic Vastu Consultation Experts" },
-      { property: "og:description", content: "Transform your home, office and business through ancient Vastu wisdom. 18+ years, 4600+ happy clients." },
+      { property: "og:title", content: "VASTUSAMRUDDHI — Vedic Vastu Consultation Experts" },
+      { property: "og:description", content: "Transform your home, office and business through ancient Vedic wisdom. 18+ years, 46000+ happy clients." },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Vastu Samruddhi" },
+      { property: "og:site_name", content: "VASTUSAMRUDDHI" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
@@ -105,7 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Vastu Samruddhi",
+          name: "VASTUSAMRUDDHI",
           image: "/favicon.ico",
           description: "Vedic Vastu, Astrology, Numerology & Scientific Logo consultation since 2008.",
           founder: [
@@ -121,7 +121,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           },
           telephone: ["+91 9987260919", "+91 9967537718"],
           email: "vastusamruddhiweb@gmail.com",
-          sameAs: ["https://www.instagram.com/_.vastusamruddhi"],
+          sameAs: ["https://www.instagram.com/_.vastusamruddhi", "https://g.page/r/vastusamruddhi/review"],
           foundingDate: "2008",
         }),
       },

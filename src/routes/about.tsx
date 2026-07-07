@@ -7,9 +7,9 @@ export const Route = createFileRoute("/about")({
   component: AboutPage,
   head: () => ({
     meta: [
-      { title: "About — Vastu Samruddhi | Shri Ravindra & Smt. Riddhi Jadhav" },
-      { name: "description", content: "Since 2008, Vastu Samruddhi has served 4600+ clients across 5 countries with Vedic Vastu, Astrology, Numerology and scientific logo design." },
-      { property: "og:title", content: "About Vastu Samruddhi" },
+      { title: "About — VASTUSAMRUDDHI | Shri Ravindra & Smt. Riddhi Jadhav" },
+      { name: "description", content: "Since 2008, VASTUSAMRUDDHI has served 46000+ clients across 5 countries with Vedic Vastu, Astrology, Numerology and scientific logo design." },
+      { property: "og:title", content: "About VASTUSAMRUDDHI" },
       { property: "og:description", content: "Founded in 2008 by Shri Ravindra & Smt. Riddhi Jadhav." },
       { property: "og:url", content: "/about" },
     ],
@@ -32,7 +32,7 @@ const TIMELINE = [
   { year: "2012", title: "Pan-India Reach", desc: "Consultations expand across India — from Mumbai and Pune to Bangalore and Delhi." },
   { year: "2016", title: "Going Global", desc: "First international clients served across 5 countries via remote consultations." },
   { year: "2020", title: "Scientific Logo Design", desc: "Launch of numerology-infused Vedic logo systems for startups and enterprises." },
-  { year: "2026", title: "4600+ Happy Clients", desc: "18+ years, thousands of aligned spaces and a thriving referral community." },
+  { year: "2026", title: "46,000+ Happy Clients", desc: "18+ years, thousands of aligned spaces and a thriving referral community across India and the globe." },
 ];
 
 function AboutPage() {
@@ -74,7 +74,7 @@ function AboutPage() {
           <div>
             <p className="text-xs font-medium uppercase tracking-[0.35em] text-primary/80">Silent Features</p>
             <h2 className="mt-4 font-display text-3xl leading-tight md:text-4xl">
-              What makes a Vastu Samruddhi audit <em className="italic text-gradient-gold">quietly powerful.</em>
+              What makes a VASTUSAMRUDDHI audit <em className="italic text-gradient-gold">quietly powerful.</em>
             </h2>
             <p className="mt-4 text-muted-foreground">
               Beyond Vastu, we support startups and established businesses to achieve sustainable

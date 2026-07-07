@@ -7,9 +7,9 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
   head: () => ({
     meta: [
-      { title: "Contact — Book a Vastu Consultation | Vastu Samruddhi" },
+      { title: "Contact — Book a Vastu Consultation | VASTUSAMRUDDHI" },
       { name: "description", content: "Book a Vastu consultation in Navi Mumbai or online. Call +91 99872 60919, WhatsApp, or send us a message. Serving India and 5 countries." },
-      { property: "og:title", content: "Contact Vastu Samruddhi" },
+      { property: "og:title", content: "Contact VASTUSAMRUDDHI" },
       { property: "og:description", content: "Book your Vastu consultation with Shri Ravindra & Smt. Riddhi Jadhav." },
       { property: "og:url", content: "/contact" },
     ],
@@ -103,6 +103,9 @@ function ContactPage() {
                 <a href="https://www.instagram.com/_.vastusamruddhi" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium">
                   <Instagram className="h-4 w-4" /> Instagram
                 </a>
+                <a href="https://g.page/r/vastusamruddhi/review" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium">
+                  ★ Google Reviews
+                </a>
               </div>
             </div>
           </Reveal>
@@ -172,7 +175,17 @@ function ContactPage() {
         </Reveal>
 
         <div className="mt-16">
-          <SectionHeader eyebrow="Referrals" title={<>Trusted by <em className="italic text-gradient-gold">4600+ families and enterprises</em></>} description="From first-time homeowners to established developers, industrialists and startups." />
+          <SectionHeader eyebrow="Referrals" title={<>Trusted by <em className="italic text-gradient-gold">46,000+ families and enterprises</em></>} description="From first-time homeowners to established developers, industrialists and startups." />
+          <div className="mt-6 flex justify-center">
+            <a
+              href="https://g.page/r/vastusamruddhi/review"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-white px-6 py-3 text-sm font-medium text-primary shadow-soft transition hover:shadow-glow"
+            >
+              ★ Review us on Google My Business
+            </a>
+          </div>
         </div>
       </section>
     </>

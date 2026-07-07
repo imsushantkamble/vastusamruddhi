@@ -209,7 +209,7 @@ function Footer() {
       <div className="container-x relative grid gap-12 py-16 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-3">
-            <img src={logoSrc} alt="Vastu Samruddhi" className="h-12 w-auto rounded-md bg-white/95 p-1" />
+            <img src={logoSrc} alt="VASTUSAMRUDDHI" className="h-12 w-auto rounded-md bg-white/95 p-1" />
           </div>
           <p className="mt-6 max-w-md text-sm leading-relaxed text-white/70">
             Vedic Vastu, Astrology & Numerology consultancy since 2008. Non-demolition remedies
@@ -217,7 +217,7 @@ function Footer() {
             Jadhav.
           </p>
           <p className="mt-6 font-devanagari text-lg text-[color:var(--gold-soft)]">
-            ।। सर्वे भवन्तु सुखीनः ।।
+            । सर्वे भवन्तु सुखीनः ।।
           </p>
         </div>
 
@@ -261,11 +261,19 @@ function Footer() {
             >
               WhatsApp
             </a>
+            <a
+              href="https://g.page/r/vastusamruddhi/review"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-white/20 px-3 py-1 text-xs uppercase tracking-widest hover:bg-white/10"
+            >
+              Google
+            </a>
           </div>
         </div>
       </div>
       <div className="container-x relative flex flex-col items-center justify-between gap-3 border-t border-white/10 py-6 text-xs text-white/60 md:flex-row">
-        <p>© 2026 Vastu Samruddhi. All rights reserved.</p>
+        <p>© 2026 VASTUSAMRUDDHI. All rights reserved.</p>
         <p>
           Made with <span className="text-red-400">❤</span> by{" "}
           <a

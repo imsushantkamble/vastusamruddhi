@@ -17,14 +17,14 @@ export const Route = createFileRoute("/")({
   component: HomePage,
   head: () => ({
     meta: [
-      { title: "Vastu Samruddhi — Vedic Vastu, Astrology & Numerology Experts" },
+      { title: "VASTUSAMRUDDHI — Vedic Vastu, Astrology & Numerology Experts" },
       {
         name: "description",
         content:
-          "Book a premium Vastu consultation with Shri Ravindra & Smt. Riddhi Jadhav. 18+ years, 4600+ happy clients, 5 countries. Non-demolition remedies for home, office & industry.",
+          "Book a premium Vastu consultation with Shri Ravindra & Smt. Riddhi Jadhav. 18+ years, 46000+ happy clients, 5 countries. Non-demolition remedies for home, office & industry.",
       },
-      { property: "og:title", content: "Vastu Samruddhi — Vedic Vastu Consultation" },
-      { property: "og:description", content: "Transform your home, office and business through ancient Vastu wisdom." },
+      { property: "og:title", content: "VASTUSAMRUDDHI — Vedic Vastu Consultation" },
+      { property: "og:description", content: "Transform your home, office and business through ancient Vedic wisdom." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -46,7 +46,7 @@ export const Route = createFileRoute("/")({
 });
 
 const STATS = [
-  { value: 4600, suffix: "+", label: "Happy Clients" },
+  { value: 46000, suffix: "+", label: "Happy Clients" },
   { value: 5, suffix: "", label: "Countries Served" },
   { value: 18, suffix: "+", label: "Years Experience" },
   { value: 85, suffix: "%", label: "Referral Business" },
@@ -70,7 +70,7 @@ const WHY = [
 ];
 
 const CHOOSE = [
-  { icon: ShieldCheck, title: "Deep Practical Experience", desc: "18+ years, 4600+ audits across residential, commercial and industrial spaces." },
+  { icon: ShieldCheck, title: "Deep Practical Experience", desc: "18+ years, 46000+ audits across residential, commercial and industrial spaces." },
   { icon: Compass, title: "Online / Offline Consultation", desc: "Personalised sessions at your site or remotely across India and abroad." },
   { icon: Sparkles, title: "Scientific Approach", desc: "Vedic principles cross-verified with modern architectural science." },
   { icon: PenLine, title: "Actionable Remedies", desc: "Clear, prioritised guidance you can implement without confusion." },
@@ -94,11 +94,20 @@ const STEPS = [
 ];
 
 const TESTIMONIALS = [
-  { name: "Anjali Deshpande", role: "Residential Client, Pune", quote: "Within weeks of implementing the remedies, our home felt lighter and relationships warmer. Truly divine work." },
-  { name: "Rohit Malhotra", role: "Builder, Mumbai", quote: "Ravindra Sir's guidance on our tower project was rooted in science. Sales velocity clearly reflected it." },
-  { name: "Sneha Iyer", role: "Architect, Bengaluru", quote: "A rare consultant who respects design intent and offers non-demolition remedies. My clients love it." },
-  { name: "Vikram Shah", role: "Business Owner, Ahmedabad", quote: "Our numerology-aligned logo and office Vastu transformed the energy of the entire team." },
-  { name: "Kirti Rane", role: "Industrial Client, Nashik", quote: "Layout suggestions improved workflow, morale and quarterly output. Highly recommended." },
+  { name: "Yogesh Galgale", role: "Owner, Gayatri Properties — Real Estate, Ulwe", quote: "I recently took Vastu consultancy and Numerology consultation services from Vastusamruddhi by Mr. Ravindra Jadhav and Mrs. Riddhi Jadhav, and I'm extremely happy with the results! Their expert knowledge in Vastu Shastra and Numerology has given me Business Growth. The mobile number suggested by them brought remarkable improvement in leads and client conversions. I also modified my business logo scientifically. Both are very professional, prompt, and deeply knowledgeable. I highly recommend Vastusamruddhi to anyone looking for accurate Vastu guidance or numerology consultancy." },
+  { name: "Omkar Gawand", role: "Numerology Consultation Client", quote: "I recently took Numerology consultation from Riddhi Jadhav Ma'am, and the experience was exceptional. Her guidance was accurate, scientific, and highly insightful. After she corrected my name and mobile number as per Numerology, I noticed powerful changes — improved opportunities, better focus, positive energy, and steady growth in both personal and professional life. I highly recommend her Numerology consultation to anyone looking for clarity, prosperity, and real transformation." },
+  { name: "Nirav Salia", role: "Residential Client", quote: "Ravindra ji has great knowledge about Vastu Shastra. He has guided extremely well while designing my residence layout. Will surely recommend his services. All the best!!!" },
+  { name: "Abhishek Laha", role: "Personal Consultation Client, Sanpada Navi Mumbai", quote: "I had a personal consultation with Mr. Ravindra Jadhav at his office located at Sanpada Navi Mumbai and I was very well guided by him. Hope to continue with his guidance for all my future endeavours." },
+  { name: "Comet X", role: "Vastu & Numerology Consultation Client", quote: "I recently took Vastu and Numerology consultation from Vastusamruddhi by Ravindra Jadhav and Riddhi Jadhav, and the experience was excellent. They gave me clear guidance, scientific explanations, and practical tips to balance energy in my home and business. After following their advice, I noticed a positive change in my work environment and overall growth. Their professionalism, quick response, and deep knowledge truly stand out. Highly recommended!" },
+  { name: "Harsh Sonwane", role: "Astro-Vastu & Numerology Client", quote: "I was going through a hard time with unstable income and a lot of debt. Then I met Ravindra Jadhav from Vastusamruddhi, and things started to change. His Astro–Vastu and Numerology guidance helped me balance my home energy. He also suggested a lucky mobile number that matched my luck number. After that my income became steady and my money flow improved. He is one of the best Vastu and Numerology consultants for wealth and prosperity in India." },
+  { name: "Sonali Gavali (Sonali Udmale)", role: "Partner, JMP Elevators — Ulwe", quote: "We took Scientific Logo and Vastu Consultation from Vastusamruddhi (Sanpada) by Riddhi & Ravindra Jadhav, and we are extremely happy with the results. Our logo design, office alignment, and name correction as per Vastu and Numerology brought visible growth in client enquiries, sales, and payment recovery. We strongly recommend Vastusamruddhi's all-in-one Vastu, Numerology & Logo services for true business growth!" },
+  { name: "Frank & Fast Interior", role: "Interior Business Client", quote: "Vastu Samruddhi is one of the best solutions for all types of Vastu. Mr. Ravindra Jadhav has 18 years experience in this field. I highly recommend for all Vastu Shastra needs." },
+  { name: "Deepali Choudhary", role: "Residential Client", quote: "Thank you Ravindra Jadhav Sir for your architectural guidance & Vastu treatment. It helps us a lot. It brought in all the happiness, prosperity & peace to our family." },
+  { name: "Tushar Tatkari", role: "Long-term Client", quote: "Very good Vastu Consultant. We had great experience with them. Results are amazing. They still provide service to us in various cases. Thank you Ravindra Sir." },
+  { name: "Umesh Thakur", role: "Consultation Client", quote: "Awesome experience!! Must visit here for all the issues solved." },
+  { name: "Ravindra Kavathekar", role: "Student & Vastu Client", quote: "Ravindra Sir is very good mentor for students and Vastu expert to address all Vastu related concerns." },
+  { name: "Rupali Rakshe", role: "Residential Client", quote: "We had a great experience with Ravindra Sir. Their remedies really worked. Thank you Ravindra Sir." },
+  { name: "CA Suyog Temkar", role: "CA, Office at Ulwe Navi Mumbai", quote: "I had taken service for upgrading my visiting card scientifically based on Numerology and Vastu from Vastu expert and Numerology expert Riddhi Jadhav. Getting good results. Thank you ma'am — recommending services from Vastusamruddhi, a best Vastu consultancy near me." },
 ];
 
 const FAQS = [
@@ -152,32 +161,32 @@ function Hero() {
         <div className="lg:col-span-7">
           <Reveal>
             <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-white/70 px-4 py-1.5 text-xs font-medium tracking-[0.3em] text-primary uppercase backdrop-blur">
-              <Sparkles className="h-3.5 w-3.5" /> Since 2008 · Vedic Vastu
+              <Sparkles className="h-3.5 w-3.5" /> Since 2008 · Vedic Wisdom
             </p>
           </Reveal>
 
           <Reveal delay={0.05}>
             <h1 className="font-display text-5xl leading-[1.02] text-foreground md:text-7xl">
-              <span className="text-gradient-green">Vastu</span> Samruddhi
+              <span className="text-gradient-green">VASTU</span>SAMRUDDHI
             </h1>
           </Reveal>
 
           <Reveal delay={0.1}>
             <p className="mt-4 font-devanagari text-2xl text-[color:var(--gold)] md:text-3xl">
-              ।। सर्वे भवन्तु सुखीनः ।।
+              । सर्वे भवन्तु सुखीनः ।।
             </p>
           </Reveal>
 
           <Reveal delay={0.15}>
             <h2 className="mt-8 font-display text-2xl leading-snug text-foreground/90 md:text-3xl">
-              Transform your home, office and business through ancient Vastu wisdom.
+              Transform your home, office and business through ancient Vedic wisdom.
             </h2>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
               Founded by <strong className="font-medium text-foreground">Shri Ravindra Jadhav</strong> &
-              <strong className="font-medium text-foreground"> Smt. Riddhi Jadhav</strong>, Vastu Samruddhi
+              <strong className="font-medium text-foreground"> Smt. Riddhi Jadhav</strong>, <strong className="font-medium text-foreground">VASTUSAMRUDDHI</strong>
               blends Vedic Vastu, Astrology, Numerology and scientific logo design to unlock harmony,
               prosperity and sustained business growth.
             </p>
@@ -225,7 +234,7 @@ function Hero() {
               <div className="relative overflow-hidden rounded-[2rem] border border-white/60 bg-white/40 p-2 shadow-glow backdrop-blur">
                 <img
                   src={foundersSrc}
-                  alt="Shri Ravindra Jadhav and Smt. Riddhi Jadhav — founders of Vastu Samruddhi"
+                  alt="Shri Ravindra Jadhav and Smt. Riddhi Jadhav — founders of VASTUSAMRUDDHI"
                   className="h-full w-full rounded-[1.5rem] object-cover"
                 />
                 <div className="absolute bottom-4 left-4 right-4 rounded-2xl glass px-4 py-3 text-sm">
@@ -247,12 +256,12 @@ function Hero() {
 
 function Founders() {
   const experts = [
-    { name: "Shri Ravindra Jadhav", role: "Founder · Vedic Vastu & Astrology", bio: "A pioneer bridging Vedic Vastu with modern architectural science, guiding 4600+ families and enterprises to prosperity.", img: ravindraSrc, exp: "18+ Years Experience" },
-    { name: "Smt. Riddhi Jadhav", role: "Co-Founder · Numerology & Logo Design", bio: "Blends numerology and Vedic principles into scientific logo systems and brand strategy that amplify business growth.", img: riddhiSrc, exp: "15+ Years Experience" },
+    { name: "Ravindra Jadhav", role: "Astro-Vastu-Scientific Logo Expert", bio: "A pioneer bridging Vedic Vastu with modern architectural science, guiding 46000+ families and enterprises to prosperity.", img: ravindraSrc, exp: "18+ Years Experience" },
+    { name: "Riddhi Jadhav", role: "Numero-Vastu Expert", bio: "Blends numerology and Vedic principles into scientific logo systems and brand strategy that amplify business growth.", img: riddhiSrc, exp: "15+ Years Experience" },
   ];
   return (
     <section className="container-x py-24 md:py-32">
-      <SectionHeader eyebrow="Meet Our Experts" title={<>Guided by wisdom, <em className="font-display italic text-gradient-gold">delivered with grace.</em></>} description="Two decades of Vedic study, thousands of consultations, and one shared intention — to bring harmony to every space we touch." />
+      <SectionHeader eyebrow="Meet Our Experts" title={<>Guided by wisdom,{" "}<em className="font-display italic text-gradient-gold">delivered with grace.</em></>} description="Two decades of Vedic study, thousands of consultations, and one shared intention — to bring harmony to every space we touch." />
       <div className="mt-16 grid gap-8 md:grid-cols-2">
         {experts.map((e, i) => (
           <Reveal key={e.name} delay={i * 0.1}>
@@ -339,7 +348,7 @@ function WhyChoose() {
     <section className="relative overflow-hidden py-24 md:py-32">
       <div className="absolute inset-0 -z-10 bg-[oklch(0.97_0.02_140)]" />
       <div className="container-x">
-        <SectionHeader eyebrow="Why Choose Us" title={<>The Vastu Samruddhi <em className="font-display italic text-gradient-gold">difference</em></>} />
+        <SectionHeader eyebrow="Why Choose Us" title={<>The VASTUSAMRUDDHI <em className="font-display italic text-gradient-gold">difference</em></>} />
         <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {CHOOSE.map((c, i) => (
             <Reveal key={c.title} delay={i * 0.05}>
@@ -460,14 +469,14 @@ function Achievements() {
 function Testimonials() {
   const [i, setI] = useState(0);
   useEffect(() => {
-    const t = setInterval(() => setI((v) => (v + 1) % TESTIMONIALS.length), 5000);
+    const t = setInterval(() => setI((v) => (v + 1) % TESTIMONIALS.length), 6000);
     return () => clearInterval(t);
   }, []);
   return (
     <section className="relative overflow-hidden py-24 md:py-32">
       <div className="absolute inset-0 -z-10 bg-[oklch(0.97_0.02_140)]" />
       <div className="container-x">
-        <SectionHeader eyebrow="Testimonials" title={<>Words from those we've <em className="italic text-gradient-gold">served</em></>} />
+        <SectionHeader eyebrow="Testimonials" title={<>Words from our <em className="italic text-gradient-gold">46,000+ happy clients</em></>} />
         <div className="relative mx-auto mt-16 max-w-3xl">
           <motion.div
             key={i}
@@ -496,6 +505,16 @@ function Testimonials() {
                 className={`h-1.5 rounded-full transition-all ${k === i ? "w-10 bg-primary" : "w-2 bg-primary/25"}`}
               />
             ))}
+          </div>
+          <div className="mt-8 flex justify-center">
+            <a
+              href="https://g.page/r/vastusamruddhi/review"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-white px-6 py-3 text-sm font-medium text-primary shadow-soft transition hover:shadow-glow"
+            >
+              ★ Read & Leave Reviews on Google My Business
+            </a>
           </div>
         </div>
       </div>
