@@ -186,8 +186,7 @@ function Hero() {
           <Reveal delay={0.2}>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
               Founded by <strong className="font-medium text-foreground">Shri Ravindra Jadhav</strong> &
-              <strong className="font-medium text-foreground"> Smt. Riddhi Jadhav</strong>, <strong className="font-medium text-foreground">VASTUSAMRUDDHI</strong>
-              blends Vedic Vastu, Astrology, Numerology and scientific logo design to unlock harmony,
+              <strong className="font-medium text-foreground"> Smt. Riddhi Jadhav</strong>,{" "}<strong className="font-medium text-foreground">VASTUSAMRUDDHI</strong>{" "}blends Vedic Vastu, Astrology, Numerology and scientific logo design to unlock harmony,
               prosperity and sustained business growth.
             </p>
           </Reveal>
@@ -261,7 +260,7 @@ function Founders() {
   ];
   return (
     <section className="container-x py-24 md:py-32">
-      <SectionHeader eyebrow="Meet Our Experts" title={<>Guided by wisdom,{" "}<em className="font-display italic text-gradient-gold">delivered with grace.</em></>} description="Two decades of Vedic study, thousands of consultations, and one shared intention — to bring harmony to every space we touch." />
+      <SectionHeader eyebrow="Meet Our Experts" title={<>Guided by wisdom,<br /><em className="font-display italic text-gradient-gold">delivered with grace.</em></>} description="Two decades of Vedic study, thousands of consultations, and one shared intention — to bring harmony to every space we touch." />
       <div className="mt-16 grid gap-8 md:grid-cols-2">
         {experts.map((e, i) => (
           <Reveal key={e.name} delay={i * 0.1}>

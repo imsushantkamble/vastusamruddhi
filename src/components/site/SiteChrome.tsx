@@ -39,7 +39,7 @@ function Navbar() {
             alt="Vastu Samruddhi logo"
             width={220}
             height={72}
-            className="h-11 w-auto md:h-12"
+            className="h-14 w-auto md:h-16"
           />
         </Link>
 
