@@ -159,8 +159,8 @@ function Hero() {
           </Reveal>
 
           <Reveal delay={0.05}>
-            <h1 className="font-display text-5xl leading-[1.02] text-foreground md:text-7xl">
-              <span className="text-gradient-green">VASTU</span>SAMRUDDHI
+            <h1 className="font-display text-5xl leading-[1.02] md:text-7xl">
+              <span className="text-gradient-green">VASTUSAMRUDDHI</span>
             </h1>
           </Reveal>
 
