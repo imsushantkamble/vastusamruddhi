@@ -2,7 +2,7 @@ import { type ReactNode, useEffect, useState } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X, Phone, MessageCircle, ArrowUp } from "lucide-react";
 import { motion, AnimatePresence, useScroll, useSpring } from "framer-motion";
-import logoSrc from "@/assets/Logo.jpeg";
+import logoSrc from "@/assets/Logo-new.png";
 
 const NAV = [
   { to: "/", label: "Home" },

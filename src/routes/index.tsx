@@ -1,8 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import {
-  Sparkles, Home, Building2, Factory, Compass, Flame, Wind,
-  Droplet, Mountain, Sun, Heart, Users2, TrendingUp, Briefcase,
+  Sparkles, Home, Building2, Factory, Compass,
+  Heart, Users2, TrendingUp, Briefcase,
   ShieldCheck, Handshake, Infinity as InfinityIcon, ArrowRight,
   Star, Phone, MessageCircle, PenLine, Calendar,
 } from "lucide-react";
@@ -52,13 +52,7 @@ const STATS = [
   { value: 85, suffix: "%", label: "Referral Business" },
 ];
 
-const ELEMENTS = [
-  { icon: Mountain, en: "Earth", hi: "पृथ्वी", desc: "Stability, foundations, structural weight" },
-  { icon: Droplet, en: "Water", hi: "जल", desc: "Flow, purification, abundance" },
-  { icon: Flame, en: "Fire", hi: "अग्नि", desc: "Energy, heat, transformation" },
-  { icon: Wind, en: "Air", hi: "वायु", desc: "Ventilation, circulation, movement" },
-  { icon: Sun, en: "Space", hi: "आकाश", desc: "Openness, connectivity, light" },
-];
+
 
 const WHY = [
   { icon: Heart, title: "Health", desc: "Balanced energies promote restful sleep, vitality and wellbeing." },
@@ -70,12 +64,12 @@ const WHY = [
 ];
 
 const CHOOSE = [
-  { icon: ShieldCheck, title: "Deep Practical Experience", desc: "18+ years, 46000+ audits across residential, commercial and industrial spaces." },
-  { icon: Compass, title: "Online / Offline Consultation", desc: "Personalised sessions at your site or remotely across India and abroad." },
-  { icon: Sparkles, title: "Scientific Approach", desc: "Vedic principles cross-verified with modern architectural science." },
-  { icon: PenLine, title: "Actionable Remedies", desc: "Clear, prioritised guidance you can implement without confusion." },
-  { icon: Handshake, title: "Non-Demolition Solutions", desc: "Corrections without breaking walls or costly renovations." },
-  { icon: InfinityIcon, title: "Lifetime Support", desc: "We remain by your side for every question, long after the audit." },
+  { icon: ShieldCheck, title: "Personalized Consultation", desc: "Every client receives individually tailored guidance, never a one-size-fits-all approach." },
+  { icon: PenLine, title: "Practical Recommendations", desc: "Clear, prioritised, actionable guidance you can implement without confusion." },
+  { icon: Sparkles, title: "Comprehensive Reports", desc: "Detailed written reports covering every aspect of your consultation for lasting reference." },
+  { icon: Handshake, title: "Ethical & Transparent Approach", desc: "Honest guidance rooted in integrity — no unnecessary upselling or false promises." },
+  { icon: Compass, title: "Modern, Professional Methodology", desc: "Vedic principles cross-verified with modern architectural science for real results." },
+  { icon: InfinityIcon, title: "Ongoing Support", desc: "We remain by your side for every question, long after the consultation ends." },
 ];
 
 const SERVICES = [
@@ -123,7 +117,6 @@ function HomePage() {
     <>
       <Hero />
       <Founders />
-      <Panchamahabhoot />
       <WhyVastu />
       <WhyChoose />
       <ServicesPreview />
@@ -289,34 +282,6 @@ function Founders() {
   );
 }
 
-/* ---------------- Panchamahabhoot ---------------- */
-
-function Panchamahabhoot() {
-  return (
-    <section className="relative overflow-hidden py-24 md:py-32">
-      <div className="absolute inset-0 -z-10 bg-gradient-soft" />
-      <Mandala className="pointer-events-none absolute left-1/2 top-1/2 h-[800px] w-[800px] -translate-x-1/2 -translate-y-1/2 text-primary/[0.05] animate-spin-slow" />
-      <div className="container-x">
-        <SectionHeader eyebrow="पंचमहाभूत" title={<>The five elements that <em className="font-display italic text-gradient-gold">shape every space</em></>} description="Every Vastu audit begins with balance — the interplay of Earth, Water, Fire, Air and Space in perfect proportion." />
-        <div className="mt-16 grid gap-6 md:grid-cols-3 lg:grid-cols-5">
-          {ELEMENTS.map((el, i) => (
-            <Reveal key={el.en} delay={i * 0.08}>
-              <div className="group relative h-full overflow-hidden rounded-3xl border border-primary/10 bg-white p-8 text-center shadow-card transition hover:-translate-y-2 hover:border-primary/30 hover:shadow-glow">
-                <div className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-gradient-gold text-white shadow-soft transition group-hover:scale-110">
-                  <el.icon className="h-7 w-7" />
-                </div>
-                <h3 className="mt-6 font-display text-xl text-primary">{el.en}</h3>
-                <p className="mt-1 font-devanagari text-lg text-[color:var(--gold)]">{el.hi}</p>
-                <p className="mt-3 text-sm text-muted-foreground">{el.desc}</p>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* ---------------- Why Vastu ---------------- */
 
 function WhyVastu() {
@@ -347,7 +312,11 @@ function WhyChoose() {
     <section className="relative overflow-hidden py-24 md:py-32">
       <div className="absolute inset-0 -z-10 bg-[oklch(0.97_0.02_140)]" />
       <div className="container-x">
-        <SectionHeader eyebrow="Why Choose Us" title={<>The VASTUSAMRUDDHI <em className="font-display italic text-gradient-gold">difference</em></>} />
+        <SectionHeader
+          eyebrow="WHY VASTUSAMRUDDHI?"
+          title={<>18+ Years of Experience, <em className="font-display italic text-gradient-gold">What Makes Us Different?</em></>}
+          description="Helping homeowners, entrepreneurs, professionals, and industries create spaces and identities that support their goals."
+        />
         <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {CHOOSE.map((c, i) => (
             <Reveal key={c.title} delay={i * 0.05}>
@@ -568,11 +537,11 @@ function FinalCTA() {
         <Mandala className="pointer-events-none absolute -left-40 top-1/2 h-[520px] w-[520px] -translate-y-1/2 text-white/10 animate-spin-slow" />
         <Mandala className="pointer-events-none absolute -right-40 top-1/2 h-[520px] w-[520px] -translate-y-1/2 text-white/10 animate-spin-slow" />
         <p className="mx-auto mb-4 inline-block text-xs uppercase tracking-[0.35em] text-[color:var(--gold-soft)]">Begin your journey</p>
-        <h2 className="mx-auto max-w-3xl font-display text-4xl leading-tight md:text-6xl">
-          Ready to transform your space?
+        <h2 className="mx-auto max-w-4xl font-display text-4xl leading-tight md:text-6xl">
+          Your Success Begins with the Right Direction.
         </h2>
-        <p className="mx-auto mt-5 max-w-xl text-white/85">
-          Book a personal consultation with Shri Ravindra & Smt. Riddhi Jadhav today.
+        <p className="mx-auto mt-5 max-w-2xl text-white/85 leading-relaxed">
+          Whether you're building a home, growing a business, choosing a meaningful name, planning important life decisions, or creating a professional brand identity, we're here to help you move forward with clarity and confidence.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
           <Link to="/contact" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-4 text-sm font-medium text-primary shadow-soft transition hover:bg-[color:var(--gold-soft)]">
